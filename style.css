@@ -1,0 +1,84 @@
+  body {
+    background-image: url("./background.jpeg");
+    background-size: cover;                    
+    background-repeat: no-repeat;             
+    background-position: center center;       
+    background-attachment: fixed;              
+    margin: 0;
+    padding: 0;
+    height: 100vh;  
+      overflow-x: hidden;
+  }
+  .myDiv {
+    background-color: lightgreen;
+  }
+  .texttitle1 {
+    text-align: center;
+  }
+  .texttitle2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .link-box {
+    width: fit-content;
+    margin: 10px auto;   
+    padding: 15px 5px;  
+    border: 2px solid  #4CAF50; 
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 8px;    
+  }
+  .text-box {
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    background-blend-mode:difference;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .text-box p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 20px;
+    font-style: italic;
+
+  }
+  
+  .image-box img {
+    border-radius: 10px;
+    transition: transform 0.3s, border-color 0.3s;
+    cursor: pointer;
+  }
+
+  .fruit-heading {
+    text-align: center;
+    color: #ff4608; 
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+  }
+  .main-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  /* types of fruit boxes */
+  .fruit-box {
+    width: 200px;
+    border: 2px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
